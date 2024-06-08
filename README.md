@@ -19,8 +19,6 @@ Insert gif or link to demo
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
 ## Run Locally
 
 Clone the project
@@ -50,7 +48,7 @@ Open with live server
 
 ## Authors
 
-- [@codewithsadee](https://www.github.com/codewithsadee)
+Angie Duran
 
 ## License
 
