@@ -1,6 +1,7 @@
 'use strict';
 
 import { updateWeather, error404 } from "./app.js";
+
 const defaultLocation = "#/weather?lat=51.5073219&lon=-0.1276474" //London
 
 const currentLocation = function(){
@@ -32,7 +33,7 @@ const checkHash = function(){
 
     const requestURL = window.location.hash.slice(1);
 
-    const [route, query] = requestURL.includes ? requestURL.split("?"):[requestURL];
+    const [route, query] = requestURL.includes ? requestURL.split("?") : [requestURL];
 
     routes.get(route) ? routes.get(route)(query) : error404();
 
