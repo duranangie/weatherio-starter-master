@@ -18,7 +18,7 @@ Insert gif or link to demo
 - Feature 3
 
 ## Screenshots
-
+![alt text](image.png)
 ## Run Locally
 
 Clone the project
